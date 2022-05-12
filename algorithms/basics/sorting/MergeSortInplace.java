@@ -41,9 +41,9 @@ public class MergeSortInplace extends Sort{
 	
 	public static void sortArray(int arr[], int n)
     {
-		if(n < 2) {
-			return;
-		}
+	if(n < 2) {
+		return;
+	}
         int m = n / 2;
         int n1 = m;
         int n2 = n - m;
